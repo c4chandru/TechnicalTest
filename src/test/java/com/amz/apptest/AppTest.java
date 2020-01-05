@@ -14,8 +14,7 @@ public class AppTest extends basePage {
     String product1 = "airpods";
 
 
-    @Description("Test to buy amazon prime product with steps of drop down selection, prime filter, price assert and buy now")
-    @Test(priority = 1)
+    @Test()
     public void testAmazonPlayStoreApp() throws InterruptedException {
 
         Boolean searchBarResult = home.searchAndAssert(driver); //find search bar and assert the field
