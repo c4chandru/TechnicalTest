@@ -46,3 +46,5 @@ Prerequisites :
 
 To view the testNg report after running test goto /TechnicalTest/target/surefire-reports/emailable-report.html
 right click and open in chrome browser
+
+![Image description](/Users/chandrasekar.sankar/Desktop/report.png)

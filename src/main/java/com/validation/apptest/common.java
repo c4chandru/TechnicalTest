@@ -19,4 +19,12 @@ public class common extends basePage{
                 .perform();
 
     }
+
+    public void touch(AppiumDriver driver, int startx, int starty){
+        TouchAction touchAction = new TouchAction(driver);
+        touchAction.tap(PointOption.point(startx, starty))
+                .release()
+                .perform();
+
+    }
 }
