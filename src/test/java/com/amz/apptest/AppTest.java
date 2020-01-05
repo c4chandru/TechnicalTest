@@ -34,6 +34,5 @@ public class AppTest extends basePage {
         //Asserting the payment method page title
         Boolean paymentMethodTitle = home.paymentMethodPage(driver);
         Assert.assertTrue(paymentMethodTitle);
-
     }
 }
