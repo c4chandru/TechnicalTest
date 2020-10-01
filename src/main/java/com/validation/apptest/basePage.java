@@ -23,11 +23,11 @@ public class basePage {
     public void setup() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Andriod");
-        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
+        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "OnePlus 5T");
         desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET, true);
-        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "in.amazon.mShop.android.shopping");
-        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.amazon.mShop.splashscreen.StartupActivity");
+        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.malmstein.yahnac");
+        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.malmstein.yahnac.stories.NewsActivity");
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), desiredCapabilities);
     }
 
